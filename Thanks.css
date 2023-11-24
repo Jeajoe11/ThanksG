@@ -1,0 +1,87 @@
+@font-face{
+    src: url(otaku-rant.bold.ttf);
+    font-family: Otaku;
+}
+.navbar{
+    height: 65px;
+    width: auto;
+    background-color: hsl(31, 37%, 50%);
+    border-bottom: 2px solid;
+    zoom: 150%;
+    margin-bottom: 10px;
+}
+.main{
+  margin-left: 20px;
+  transition: all 0.3s ease;
+}
+.title::selection{
+  background-color: #1480a3;
+  color: Brown;
+}
+.navb{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right:10px;
+    font-size: 23px;
+    margin-top: -15px;
+    transition: all 0.3s ease;
+}
+.navb:hover{
+    text-decoration: underline 5px solid;
+    text-decoration-color: #d3bd92;
+}
+.navbar h2::selection{
+  background-color: saddlebrown;
+  color: white;
+}
+.navbar u::selection{
+  background-color: saddlebrown;
+  color: white;
+}
+.border{
+    transition: all 0.3s ease;
+    background: transparent;
+    float: left;
+    height: 65px;
+}
+.border:hover{
+    background:hsl(31, 38%, 46%);
+}
+.border:hover .navb{
+    font-size: 25px;
+}
+.hl{
+    text-decoration: none;
+    color: #d3bd92;
+    text-shadow: 2px 2px 4px hsl(0, 0%, 0%);
+    transition: all 0.3s ease;
+}
+.user{
+  margin-top: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: ##634417;
+}
+svg{
+  position: absolute;
+  margin-top: 7.5px;
+  margin-left: 11px;
+}
+.title{
+    display: inline;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+body{
+    background-image: url(dry-autumn-leaves-nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(-10px);
+    color: white;
+    margin: 0px;
+    font-family: Otaku;
+    background-color: hsl(32, 69%, 69%);
+}
